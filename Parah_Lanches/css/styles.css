@@ -11,12 +11,17 @@ padding: 70px;
 background-color: rgb(223, 113, 39);
 }
 
+.container{
+    display:flex;
+    justify-content:center;
+}
+
 .produto img{
-    height: 200px;
-    width:180px;
+    height: 100px;
+    width:90px;
     border-radius: 10px;
 }
 
 .produto img:hover{
-    transform:scale(1.5);
+    transform:scale(1.2);
 }
